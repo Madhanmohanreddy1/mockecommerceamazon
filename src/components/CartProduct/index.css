@@ -1,0 +1,60 @@
+.image-configartain {
+  max-height: 300px;
+  max-width: 150px;
+  background-size: cover;
+}
+.list-style-value {
+  list-style: none;
+}
+
+.color-for-in {
+  color: green;
+}
+.description-style {
+  font-weight: bold;
+  width: 100%;
+}
+
+.display-utilites11 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.margin-left-center {
+  margin-left: 50px;
+}
+
+.price-margin {
+  margin-left: 70px;
+  margin-right: 40px;
+}
+
+.margin-right-horizanta {
+  margin-right: 20px;
+}
+
+.brand-watch {
+  font-weight: bold;
+  color: rgb(195, 47, 145);
+}
+
+.rating-color- {
+  color: lightcoral;
+  background-color: transparent;
+}
+.rating-value-green {
+  color: black;
+  font-family: 'bree serif';
+}
+
+@media screen and (max-width: 767px) {
+  .display-utilites11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .margin-left-center {
+    margin-left: 2px;
+  }
+}

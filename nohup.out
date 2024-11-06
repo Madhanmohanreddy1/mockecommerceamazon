@@ -1,0 +1,290 @@
+
+> app-name@1.0.0 start
+> react-scripts start
+
+(node:520) [DEP0148] DeprecationWarning: Use of deprecated folder mapping "./" in the "exports" field module resolution of the package at /home/nxtwave/reactjs/sessions/sorting-products/node_modules/.pnpm/postcss-safe-parser@5.0.2/node_modules/postcss/package.json.
+Update this package.json to use a subpath pattern like "./*".
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:3000/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/nxtwave/reactjs/sessions/sorting-products/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Failed to compile.
+
+src/App.js
+  Line 12:1:  Delete `⏎`  prettier/prettier
+
+src/components/AllProductsSection/index.js
+  Line 5:1:   `react-icons/bs` import should occur before import of `../ProductsHeader`  import/order
+  Line 31:3:  Expected blank line between class members                                  lines-between-class-members
+
+src/components/Cart/index.js
+  Line 6:1:    `react-router-dom` import should occur before import of `../CartProduct`                               import/order
+  Line 68:36:  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+
+src/components/CartProduct/index.js
+  Line 12:12:  Replace `imageUrl,·brand,·price,·availability,·description,·rating,·title}·=` with `⏎······imageUrl,⏎······brand,⏎······price,⏎······availability,⏎······description,⏎······rating,⏎······title,`  prettier/prettier
+  Line 13:5:   Replace `·` with `}·=`                                                                                                                                                                             prettier/prettier
+
+src/components/CheckOutPage/index.js
+  Line 24:3:    Expected blank line between class members                                                              lines-between-class-members
+  Line 31:3:    Expected blank line between class members                                                              lines-between-class-members
+  Line 34:3:    Expected blank line between class members                                                              lines-between-class-members
+  Line 53:41:   Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+  Line 146:17:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+
+src/components/Home/index.js
+  Line 9:20:   Replace `'home-container'` with `"home-container"`                                                                                                                                                                                                                                                                                        prettier/prettier
+  Line 10:22:  Replace `'home-content'` with `"home-content"`                                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 11:23:  Replace `'home-heading'` with `"home-heading"`                                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 13:15:  Replace `'https://press.aboutamazon.in/system/files-encrypted/styles/nir_asset_small/encrypt/nasdaq_kms/assets/2020/03/05/18-21-23/Amazon-logo-th.jpg?itok=Q473rW7n'` with `"https://press.aboutamazon.in/system/files-encrypted/styles/nir_asset_small/encrypt/nasdaq_kms/assets/2020/03/05/18-21-23/Amazon-logo-th.jpg?itok=Q473rW7n"`  prettier/prettier
+  Line 14:15:  Replace `'clothes·to·be·noticed'` with `"clothes·to·be·noticed"`                                                                                                                                                                                                                                                                          prettier/prettier
+  Line 15:21:  Replace `'home-mobile-img'` with `"home-mobile-img"`                                                                                                                                                                                                                                                                                      prettier/prettier
+  Line 17:22:  Replace `'home-description'` with `"home-description"`                                                                                                                                                                                                                                                                                    prettier/prettier
+  Line 24:18:  Replace `'/products'` with `"/products"`                                                                                                                                                                                                                                                                                                  prettier/prettier
+  Line 25:24:  Replace `'button'·className='shop-now-button'` with `"button"·className="shop-now-button"`                                                                                                                                                                                                                                                prettier/prettier
+  Line 31:13:  Replace `'https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-img.png'` with `"https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-img.png"`                                                                                                                                                                                    prettier/prettier
+  Line 32:13:  Replace `'dresses·to·be·noticed'` with `"dresses·to·be·noticed"`                                                                                                                                                                                                                                                                          prettier/prettier
+  Line 33:19:  Replace `'home-desktop-img'` with `"home-desktop-img"`                                                                                                                                                                                                                                                                                    prettier/prettier
+
+src/components/ProductCard/index.js
+  Line 2:1:  Dependency cycle detected                                                    import/no-cycle
+  Line 3:1:  `react-router-dom` import should occur before import of `../ProductDetails`  import/order
+
+src/components/ProductDetails/index.js
+  Line 4:1:     `react-icons/md` import should occur before import of `../Header`                                                                                                                                                 import/order
+  Line 5:1:     Dependency cycle detected                                                                                                                                                                                         import/no-cycle
+  Line 7:1:     `react-router-dom` import should occur before import of `../Header`                                                                                                                                               import/order
+  Line 14:5:    Expected property shorthand                                                                                                                                                                                       object-shorthand
+  Line 52:3:    Expected blank line between class members                                                                                                                                                                         lines-between-class-members
+  Line 100:38:  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`                                                                                                             arrow-body-style
+  Line 111:55:  Replace `<Link·to={`/cart/${id}`}·className="add-style">Buy·Now</Link>` with `⏎················<Link·to={`/cart/${id}`}·className="add-style">⏎··················Buy·Now⏎················</Link>⏎··············`  prettier/prettier
+
+Search for the keywords to learn more about each error.
+
+> app-name@1.0.0 start
+> react-scripts start
+
+(node:605) [DEP0148] DeprecationWarning: Use of deprecated folder mapping "./" in the "exports" field module resolution of the package at /home/nxtwave/reactjs/sessions/sorting-products/node_modules/.pnpm/postcss-safe-parser@5.0.2/node_modules/postcss/package.json.
+Update this package.json to use a subpath pattern like "./*".
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Something is already running on port 3000.
+
+> app-name@1.0.0 start
+> react-scripts start
+
+(node:886) [DEP0148] DeprecationWarning: Use of deprecated folder mapping "./" in the "exports" field module resolution of the package at /home/nxtwave/reactjs/sessions/sorting-products/node_modules/.pnpm/postcss-safe-parser@5.0.2/node_modules/postcss/package.json.
+Update this package.json to use a subpath pattern like "./*".
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:3000/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/nxtwave/reactjs/sessions/sorting-products/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Failed to compile.
+
+src/App.js
+  Line 12:1:  Delete `⏎`  prettier/prettier
+
+src/components/AllProductsSection/index.js
+  Line 5:1:   `react-icons/bs` import should occur before import of `../ProductsHeader`  import/order
+  Line 31:3:  Expected blank line between class members                                  lines-between-class-members
+
+src/components/Cart/index.js
+  Line 6:1:    `react-router-dom` import should occur before import of `../CartProduct`                               import/order
+  Line 68:36:  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+
+src/components/CartProduct/index.js
+  Line 12:12:  Replace `imageUrl,·brand,·price,·availability,·description,·rating,·title}·=` with `⏎······imageUrl,⏎······brand,⏎······price,⏎······availability,⏎······description,⏎······rating,⏎······title,`  prettier/prettier
+  Line 13:5:   Replace `·` with `}·=`                                                                                                                                                                             prettier/prettier
+
+src/components/CheckOutPage/index.js
+  Line 24:3:    Expected blank line between class members                                                              lines-between-class-members
+  Line 31:3:    Expected blank line between class members                                                              lines-between-class-members
+  Line 34:3:    Expected blank line between class members                                                              lines-between-class-members
+  Line 53:41:   Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+  Line 146:17:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+
+src/components/Header/index.js
+  Line 14:20:  Replace `'nav-header'` with `"nav-header"`                                                                                                                                                                                                                                                                                                prettier/prettier
+  Line 15:22:  Replace `'nav-content'` with `"nav-content"`                                                                                                                                                                                                                                                                                              prettier/prettier
+  Line 16:18:  Replace `'/'` with `"/"`                                                                                                                                                                                                                                                                                                                  prettier/prettier
+  Line 18:23:  Replace `'website-logo'` with `"website-logo"`                                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 19:17:  Replace `'https://press.aboutamazon.in/system/files-encrypted/styles/nir_asset_small/encrypt/nasdaq_kms/assets/2020/03/05/18-21-23/Amazon-logo-th.jpg?itok=Q473rW7n'` with `"https://press.aboutamazon.in/system/files-encrypted/styles/nir_asset_small/encrypt/nasdaq_kms/assets/2020/03/05/18-21-23/Amazon-logo-th.jpg?itok=Q473rW7n"`  prettier/prettier
+  Line 20:17:  Replace `'website·logo'` with `"website·logo"`                                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 23:23:  Replace `'nav-menu'` with `"nav-menu"`                                                                                                                                                                                                                                                                                                    prettier/prettier
+  Line 25:22:  Replace `'/'·className='nav-link'` with `"/"·className="nav-link"`                                                                                                                                                                                                                                                                        prettier/prettier
+  Line 30:22:  Replace `'/products'·className='nav-link'` with `"/products"·className="nav-link"`                                                                                                                                                                                                                                                        prettier/prettier
+  Line 35:22:  Replace `'/cart'·className='nav-link'` with `"/cart"·className="nav-link"`                                                                                                                                                                                                                                                                prettier/prettier
+  Line 41:16:  Replace `'button'` with `"button"`                                                                                                                                                                                                                                                                                                        prettier/prettier
+  Line 42:21:  Replace `'logout-desktop-btn'` with `"logout-desktop-btn"`                                                                                                                                                                                                                                                                                prettier/prettier
+  Line 48:16:  Replace `'button'` with `"button"`                                                                                                                                                                                                                                                                                                        prettier/prettier
+  Line 49:21:  Replace `'logout-mobile-btn'` with `"logout-mobile-btn"`                                                                                                                                                                                                                                                                                  prettier/prettier
+  Line 53:17:  Replace `'https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png'` with `"https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"`                                                                                                                                                                              prettier/prettier
+  Line 54:17:  Replace `'logout·icon'` with `"logout·icon"`                                                                                                                                                                                                                                                                                              prettier/prettier
+  Line 55:23:  Replace `'logout-icon'` with `"logout-icon"`                                                                                                                                                                                                                                                                                              prettier/prettier
+  Line 59:22:  Replace `'nav-menu-mobile'` with `"nav-menu-mobile"`                                                                                                                                                                                                                                                                                      prettier/prettier
+  Line 60:23:  Replace `'nav-menu-list-mobile'` with `"nav-menu-list-mobile"`                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 61:20:  Replace `'/'` with `"/"`                                                                                                                                                                                                                                                                                                                  prettier/prettier
+  Line 62:27:  Replace `'nav-menu-item-mobile'` with `"nav-menu-item-mobile"`                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 64:21:  Replace `'https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png'` with `"https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png"`                                                                                                                                                                                  prettier/prettier
+  Line 65:21:  Replace `'nav·home'` with `"nav·home"`                                                                                                                                                                                                                                                                                                    prettier/prettier
+  Line 66:27:  Replace `'nav-bar-image'` with `"nav-bar-image"`                                                                                                                                                                                                                                                                                          prettier/prettier
+  Line 70:20:  Replace `'/products'` with `"/products"`                                                                                                                                                                                                                                                                                                  prettier/prettier
+  Line 71:27:  Replace `'nav-menu-item-mobile'` with `"nav-menu-item-mobile"`                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 73:21:  Replace `'https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png'` with `"https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"`                                                                                                                                                                          prettier/prettier
+  Line 74:21:  Replace `'nav·products'` with `"nav·products"`                                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 75:27:  Replace `'nav-bar-image'` with `"nav-bar-image"`                                                                                                                                                                                                                                                                                          prettier/prettier
+  Line 79:20:  Replace `'/cart'` with `"/cart"`                                                                                                                                                                                                                                                                                                          prettier/prettier
+  Line 80:27:  Replace `'nav-menu-item-mobile'` with `"nav-menu-item-mobile"`                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 82:21:  Replace `'https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-icon.png'` with `"https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-icon.png"`                                                                                                                                                                                  prettier/prettier
+  Line 83:21:  Replace `'nav·cart'` with `"nav·cart"`                                                                                                                                                                                                                                                                                                    prettier/prettier
+  Line 84:27:  Replace `'nav-bar-image'` with `"nav-bar-image"`                                                                                                                                                                                                                                                                                          prettier/prettier
+
+src/components/Home/index.js
+  Line 9:20:   Replace `'home-container'` with `"home-container"`                                                                                                                                                                                                                                                                                        prettier/prettier
+  Line 10:22:  Replace `'home-content'` with `"home-content"`                                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 11:23:  Replace `'home-heading'` with `"home-heading"`                                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 13:15:  Replace `'https://press.aboutamazon.in/system/files-encrypted/styles/nir_asset_small/encrypt/nasdaq_kms/assets/2020/03/05/18-21-23/Amazon-logo-th.jpg?itok=Q473rW7n'` with `"https://press.aboutamazon.in/system/files-encrypted/styles/nir_asset_small/encrypt/nasdaq_kms/assets/2020/03/05/18-21-23/Amazon-logo-th.jpg?itok=Q473rW7n"`  prettier/prettier
+  Line 14:15:  Replace `'clothes·to·be·noticed'` with `"clothes·to·be·noticed"`                                                                                                                                                                                                                                                                          prettier/prettier
+  Line 15:21:  Replace `'home-mobile-img'` with `"home-mobile-img"`                                                                                                                                                                                                                                                                                      prettier/prettier
+  Line 17:22:  Replace `'home-description'` with `"home-description"`                                                                                                                                                                                                                                                                                    prettier/prettier
+  Line 24:18:  Replace `'/products'` with `"/products"`                                                                                                                                                                                                                                                                                                  prettier/prettier
+  Line 25:24:  Replace `'button'·className='shop-now-button'` with `"button"·className="shop-now-button"`                                                                                                                                                                                                                                                prettier/prettier
+  Line 31:13:  Replace `'https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-img.png'` with `"https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-img.png"`                                                                                                                                                                                    prettier/prettier
+  Line 32:13:  Replace `'dresses·to·be·noticed'` with `"dresses·to·be·noticed"`                                                                                                                                                                                                                                                                          prettier/prettier
+  Line 33:19:  Replace `'home-desktop-img'` with `"home-desktop-img"`                                                                                                                                                                                                                                                                                    prettier/prettier
+
+src/components/ProductCard/index.js
+  Line 2:1:  Dependency cycle detected                                                    import/no-cycle
+  Line 3:1:  `react-router-dom` import should occur before import of `../ProductDetails`  import/order
+
+src/components/ProductDetails/index.js
+  Line 4:1:     `react-icons/md` import should occur before import of `../Header`                                                                                                                                                 import/order
+  Line 5:1:     Dependency cycle detected                                                                                                                                                                                         import/no-cycle
+  Line 7:1:     `react-router-dom` import should occur before import of `../Header`                                                                                                                                               import/order
+  Line 14:5:    Expected property shorthand                                                                                                                                                                                       object-shorthand
+  Line 52:3:    Expected blank line between class members                                                                                                                                                                         lines-between-class-members
+  Line 100:38:  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`                                                                                                             arrow-body-style
+  Line 111:55:  Replace `<Link·to={`/cart/${id}`}·className="add-style">Buy·Now</Link>` with `⏎················<Link·to={`/cart/${id}`}·className="add-style">⏎··················Buy·Now⏎················</Link>⏎··············`  prettier/prettier
+
+Search for the keywords to learn more about each error.
+
+> app-name@1.0.0 start
+> react-scripts start
+
+(node:996) [DEP0148] DeprecationWarning: Use of deprecated folder mapping "./" in the "exports" field module resolution of the package at /home/nxtwave/reactjs/sessions/sorting-products/node_modules/.pnpm/postcss-safe-parser@5.0.2/node_modules/postcss/package.json.
+Update this package.json to use a subpath pattern like "./*".
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:3000/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/nxtwave/reactjs/sessions/sorting-products/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Failed to compile.
+
+src/App.js
+  Line 12:1:  Delete `⏎`  prettier/prettier
+
+src/components/AllProductsSection/index.js
+  Line 5:1:   `react-icons/bs` import should occur before import of `../ProductsHeader`  import/order
+  Line 31:3:  Expected blank line between class members                                  lines-between-class-members
+
+src/components/Cart/index.js
+  Line 6:1:    `react-router-dom` import should occur before import of `../CartProduct`                               import/order
+  Line 68:36:  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+
+src/components/CartProduct/index.js
+  Line 12:12:  Replace `imageUrl,·brand,·price,·availability,·description,·rating,·title}·=` with `⏎······imageUrl,⏎······brand,⏎······price,⏎······availability,⏎······description,⏎······rating,⏎······title,`  prettier/prettier
+  Line 13:5:   Replace `·` with `}·=`                                                                                                                                                                             prettier/prettier
+
+src/components/CheckOutPage/index.js
+  Line 24:3:    Expected blank line between class members                                                              lines-between-class-members
+  Line 31:3:    Expected blank line between class members                                                              lines-between-class-members
+  Line 34:3:    Expected blank line between class members                                                              lines-between-class-members
+  Line 53:41:   Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+  Line 146:17:  A form label must be associated with a control                                                         jsx-a11y/label-has-associated-control
+
+src/components/Header/index.js
+  Line 14:20:  Replace `'nav-header'` with `"nav-header"`                                                                                                                                                                                                                                                                                                prettier/prettier
+  Line 15:22:  Replace `'nav-content'` with `"nav-content"`                                                                                                                                                                                                                                                                                              prettier/prettier
+  Line 16:18:  Replace `'/'` with `"/"`                                                                                                                                                                                                                                                                                                                  prettier/prettier
+  Line 18:23:  Replace `'website-logo'` with `"website-logo"`                                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 19:17:  Replace `'https://press.aboutamazon.in/system/files-encrypted/styles/nir_asset_small/encrypt/nasdaq_kms/assets/2020/03/05/18-21-23/Amazon-logo-th.jpg?itok=Q473rW7n'` with `"https://press.aboutamazon.in/system/files-encrypted/styles/nir_asset_small/encrypt/nasdaq_kms/assets/2020/03/05/18-21-23/Amazon-logo-th.jpg?itok=Q473rW7n"`  prettier/prettier
+  Line 20:17:  Replace `'website·logo'` with `"website·logo"`                                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 23:23:  Replace `'nav-menu'` with `"nav-menu"`                                                                                                                                                                                                                                                                                                    prettier/prettier
+  Line 25:22:  Replace `'/'·className='nav-link'` with `"/"·className="nav-link"`                                                                                                                                                                                                                                                                        prettier/prettier
+  Line 30:22:  Replace `'/products'·className='nav-link'` with `"/products"·className="nav-link"`                                                                                                                                                                                                                                                        prettier/prettier
+  Line 35:22:  Replace `'/cart'·className='nav-link'` with `"/cart"·className="nav-link"`                                                                                                                                                                                                                                                                prettier/prettier
+  Line 41:16:  Replace `'button'` with `"button"`                                                                                                                                                                                                                                                                                                        prettier/prettier
+  Line 42:21:  Replace `'logout-desktop-btn'` with `"logout-desktop-btn"`                                                                                                                                                                                                                                                                                prettier/prettier
+  Line 48:16:  Replace `'button'` with `"button"`                                                                                                                                                                                                                                                                                                        prettier/prettier
+  Line 49:21:  Replace `'logout-mobile-btn'` with `"logout-mobile-btn"`                                                                                                                                                                                                                                                                                  prettier/prettier
+  Line 53:17:  Replace `'https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png'` with `"https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"`                                                                                                                                                                              prettier/prettier
+  Line 54:17:  Replace `'logout·icon'` with `"logout·icon"`                                                                                                                                                                                                                                                                                              prettier/prettier
+  Line 55:23:  Replace `'logout-icon'` with `"logout-icon"`                                                                                                                                                                                                                                                                                              prettier/prettier
+  Line 59:22:  Replace `'nav-menu-mobile'` with `"nav-menu-mobile"`                                                                                                                                                                                                                                                                                      prettier/prettier
+  Line 60:23:  Replace `'nav-menu-list-mobile'` with `"nav-menu-list-mobile"`                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 61:20:  Replace `'/'` with `"/"`                                                                                                                                                                                                                                                                                                                  prettier/prettier
+  Line 62:27:  Replace `'nav-menu-item-mobile'` with `"nav-menu-item-mobile"`                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 64:21:  Replace `'https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png'` with `"https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png"`                                                                                                                                                                                  prettier/prettier
+  Line 65:21:  Replace `'nav·home'` with `"nav·home"`                                                                                                                                                                                                                                                                                                    prettier/prettier
+  Line 66:27:  Replace `'nav-bar-image'` with `"nav-bar-image"`                                                                                                                                                                                                                                                                                          prettier/prettier
+  Line 70:20:  Replace `'/products'` with `"/products"`                                                                                                                                                                                                                                                                                                  prettier/prettier
+  Line 71:27:  Replace `'nav-menu-item-mobile'` with `"nav-menu-item-mobile"`                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 73:21:  Replace `'https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png'` with `"https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"`                                                                                                                                                                          prettier/prettier
+  Line 74:21:  Replace `'nav·products'` with `"nav·products"`                                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 75:27:  Replace `'nav-bar-image'` with `"nav-bar-image"`                                                                                                                                                                                                                                                                                          prettier/prettier
+  Line 79:20:  Replace `'/cart'` with `"/cart"`                                                                                                                                                                                                                                                                                                          prettier/prettier
+  Line 80:27:  Replace `'nav-menu-item-mobile'` with `"nav-menu-item-mobile"`                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 82:21:  Replace `'https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-icon.png'` with `"https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-icon.png"`                                                                                                                                                                                  prettier/prettier
+  Line 83:21:  Replace `'nav·cart'` with `"nav·cart"`                                                                                                                                                                                                                                                                                                    prettier/prettier
+  Line 84:27:  Replace `'nav-bar-image'` with `"nav-bar-image"`                                                                                                                                                                                                                                                                                          prettier/prettier
+
+src/components/Home/index.js
+  Line 9:20:   Replace `'home-container'` with `"home-container"`                                                                                                                                                                                                                                                                                        prettier/prettier
+  Line 10:22:  Replace `'home-content'` with `"home-content"`                                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 11:23:  Replace `'home-heading'` with `"home-heading"`                                                                                                                                                                                                                                                                                            prettier/prettier
+  Line 13:15:  Replace `'https://press.aboutamazon.in/system/files-encrypted/styles/nir_asset_small/encrypt/nasdaq_kms/assets/2020/03/05/18-21-23/Amazon-logo-th.jpg?itok=Q473rW7n'` with `"https://press.aboutamazon.in/system/files-encrypted/styles/nir_asset_small/encrypt/nasdaq_kms/assets/2020/03/05/18-21-23/Amazon-logo-th.jpg?itok=Q473rW7n"`  prettier/prettier
+  Line 14:15:  Replace `'clothes·to·be·noticed'` with `"clothes·to·be·noticed"`                                                                                                                                                                                                                                                                          prettier/prettier
+  Line 15:21:  Replace `'home-mobile-img'` with `"home-mobile-img"`                                                                                                                                                                                                                                                                                      prettier/prettier
+  Line 17:22:  Replace `'home-description'` with `"home-description"`                                                                                                                                                                                                                                                                                    prettier/prettier
+  Line 24:18:  Replace `'/products'` with `"/products"`                                                                                                                                                                                                                                                                                                  prettier/prettier
+  Line 25:24:  Replace `'button'·className='shop-now-button'` with `"button"·className="shop-now-button"`                                                                                                                                                                                                                                                prettier/prettier
+  Line 31:13:  Replace `'https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-img.png'` with `"https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-img.png"`                                                                                                                                                                                    prettier/prettier
+  Line 32:13:  Replace `'dresses·to·be·noticed'` with `"dresses·to·be·noticed"`                                                                                                                                                                                                                                                                          prettier/prettier
+  Line 33:19:  Replace `'home-desktop-img'` with `"home-desktop-img"`                                                                                                                                                                                                                                                                                    prettier/prettier
+
+src/components/ProductCard/index.js
+  Line 2:1:  Dependency cycle detected                                                    import/no-cycle
+  Line 3:1:  `react-router-dom` import should occur before import of `../ProductDetails`  import/order
+
+src/components/ProductDetails/index.js
+  Line 4:1:     `react-icons/md` import should occur before import of `../Header`                                                                                                                                                 import/order
+  Line 5:1:     Dependency cycle detected                                                                                                                                                                                         import/no-cycle
+  Line 7:1:     `react-router-dom` import should occur before import of `../Header`                                                                                                                                               import/order
+  Line 14:5:    Expected property shorthand                                                                                                                                                                                       object-shorthand
+  Line 52:3:    Expected blank line between class members                                                                                                                                                                         lines-between-class-members
+  Line 100:38:  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`                                                                                                             arrow-body-style
+  Line 111:55:  Replace `<Link·to={`/cart/${id}`}·className="add-style">Buy·Now</Link>` with `⏎················<Link·to={`/cart/${id}`}·className="add-style">⏎··················Buy·Now⏎················</Link>⏎··············`  prettier/prettier
+
+Search for the keywords to learn more about each error.

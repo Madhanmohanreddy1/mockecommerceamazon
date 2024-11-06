@@ -1,0 +1,120 @@
+.enter-heading {
+  color: orange;
+  margin-left: 10px;
+}
+.country-style {
+  font-weight: bold;
+  width: 15%;
+}
+.select-style {
+  width: 44%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid;
+}
+.margin-top-address {
+  padding-bottom: 10px;
+}
+
+.address-display-value {
+  display: flex;
+  flex-direction: row;
+}
+
+.margin-left-for-zipcode {
+  margin-right: 24px;
+}
+.border-main-con {
+  border: 1px solid gray;
+  width: 60vw;
+  margin-left: 5%;
+  padding-left: 40px;
+  border-radius: 6px;
+}
+.last-state-code {
+  margin-bottom: 20px;
+}
+
+.shipping-display {
+  display: flex;
+  flex-direction: row;
+}
+
+.under-display {
+  width: 20vw;
+  margin-left: 100px;
+  margin-top: 30px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 45vh;
+  align-items: center;
+}
+.proced-butttons {
+  background-color: yellow;
+  width: 15vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-width: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.para-address {
+  font-size: 14px;
+  font-family: 'bree serif';
+}
+
+.span-element {
+  color: green;
+}
+.span2-element {
+  font-weight: bold;
+}
+
+.margin-left-hr {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .special-width {
+    width: 17vw;
+  }
+  .border-main-con {
+    width: 76vw;
+    border: 1px solid gray;
+    margin-left: 10%;
+    padding-left: 10px;
+    border-radius: 6px;
+  }
+  .under-display {
+    width: 80vw;
+    margin-left: 10%;
+    margin-top: 30px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 45vh;
+    align-items: center;
+  }
+  .shipping-display {
+    display: flex;
+    flex-direction: column;
+  }
+  .proced-butttons {
+    background-color: yellow;
+    width: 45vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .select-style{
+    width:85%;
+
+  }
+}

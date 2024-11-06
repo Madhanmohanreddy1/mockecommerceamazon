@@ -1,0 +1,155 @@
+.image-styling {
+  max-height: 827px;
+  max-width: 400px;
+  background-size: cover;
+  margin-left: 100px;
+  border-radius: 8px;
+}
+.add-style {
+  text-decoration: none;
+}
+
+.display-utilites {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.heading {
+  text-align: flex-start;
+}
+
+.display-con {
+  display: flex;
+  justify-content: space-between;
+}
+.rating-rate {
+  color: red;
+}
+
+.para-width {
+  width: 50%;
+}
+.another-container {
+  width: 50%;
+}
+.brand {
+  font-weight: bold;
+}
+
+.span1 {
+  color: white;
+  background-color: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.inclusive-style {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.availabile-green {
+  color: #007600;
+  font-family: 'Roboto';
+}
+.availabile-red {
+  color: red;
+  font-family: 'Roboto';
+}
+.quantity-avalible {
+  padding-right: 55px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  background-color: light-gray;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.add-button-styling {
+  margin-top: 20px;
+  width: 155px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 12px;
+  background-color: yellow;
+  font-weight: bold;
+  cursor: pointer;
+  border-width: 0px;
+}
+.add-button-styling1 {
+  margin-top: 20px;
+  width: 155px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 12px;
+  background-color: orange;
+  font-weight: bold;
+  cursor: pointer;
+  border-width: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .display-con {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading {
+    margin-left: 15px;
+  }
+  .display-utilites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+  .image-styling {
+    max-height: 400px;
+    max-width: 200px;
+    margin-top: 30px;
+    margin-left: -20px;
+  }
+  .another-container {
+    width: 100vw;
+  }
+  .para-width {
+    width: 100%;
+    margin-left: 15px;
+  }
+  .button-element {
+    margin-left: 7%;
+  }
+  .quantity-avalible {
+    width: 80%;
+  }
+  .add-button-styling {
+    margin-left: 1%;
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+    background-color: yellow;
+    font-weight: bold;
+    cursor: pointer;
+    border-width: 0px;
+  }
+  .add-button-styling1 {
+    margin-left: 1%;
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+    background-color: orange;
+    font-weight: bold;
+    cursor: pointer;
+    border-width: 0px;
+  }
+  .brand {
+    margin-left: 15px;
+  }
+  .margin-for-smaall {
+    padding-bottom: 30px;
+  }
+}
